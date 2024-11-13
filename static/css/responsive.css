@@ -1,0 +1,35 @@
+/* Small Screen Style */
+
+@media(max-width: 640px){
+    html {
+        font-size: 12px;
+    }
+    header {
+        flex-direction: column;
+        height: max-content;
+        
+    }
+    .logo {
+        width: 100%;
+    }
+    .nav-menu {
+        width: 100%;
+    }
+    .nav-options {
+        width: 100%;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    /* ABOUT ME SECTION */
+    .about-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .about-description-container {
+        margin: 2%;
+        width: 100%;
+    }
+    /* PROJECTS SECTION */
+}

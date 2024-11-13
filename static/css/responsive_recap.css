@@ -1,0 +1,32 @@
+.container {
+    height: 300px;
+    border: solid 2px blue;
+    width: 100%;
+    display: flex;
+    
+}
+
+.left-side {
+    height: 80%;
+    background-color: orange;
+    width: 30%;
+}
+
+.right-side {
+    height: 80%;
+    background-color: green;
+    width: 70%;
+}
+
+/* Small Screen Style */
+@media(max-width: 640px){
+    .container {
+        flex-direction: column;
+    }
+    .left-side {
+        width: 100%;
+    }
+    .right-side {
+        width: 100%;
+    }
+}
